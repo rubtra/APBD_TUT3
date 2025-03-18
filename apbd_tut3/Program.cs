@@ -29,7 +29,7 @@ class Program
 
         // unloading
         Console.WriteLine("\n--- Unloading First Container From Ship 1 ---");
-        neptune.UnloadContainer("KON-L-1"); // Жидкостный контейнер
+        neptune.UnloadContainer("KON-L-1"); 
         
         Console.WriteLine("\n--- Removing Refrigerated Container (Fish) From Ship 1 ---");
         neptune.RemoveContainer("KON-C-1");
